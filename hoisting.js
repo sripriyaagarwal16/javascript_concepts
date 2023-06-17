@@ -1,21 +1,25 @@
 // var x = 1;
 // a();
 // b();
-// console.log(x); // 1
+// console.log(x);
 
 // function a() {
 //   var x = 10;
-//   console.log(x); //10
+//   console.log(x);
 // }
 
 // function b() {
 //   var x = 100;
-//   console.log(x); // 100
+//   console.log(x);
 // }
 
+// let x = 10;
+// console.log(x);
+//const x = 10; // temporal dead zone
+
 // getName();
-// console.log(x); // reference error
-// console.log(getName);
+// console.log(x);
+// console.log(getName());
 // function getName() {
 //   console.log("javascript");
 // }
@@ -35,10 +39,26 @@
 
 // console.log(x());
 
-console.log(z);
+// console.log(z);
 
-var z = function xyz() {
-  console.log("anshika");
+// var z = function xyz() {
+//   console.log("anshika");
+// };
+
+// z();
+
+abc();
+
+//z();
+
+// Function declaration // function hoisting
+function abc() {
+  console.log("abc");
+}
+
+// Function expression  // variable hoisting
+var z = function abc() {
+  console.log("xyz");
 };
 
 z();
