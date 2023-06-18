@@ -7,5 +7,7 @@ a = a.map(function (num) {
   return num * num;
 });
 
+// a = a.map((num) => num * num);
+
 console.log(a);
 //console.log(squaredArray);

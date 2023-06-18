@@ -10,11 +10,13 @@
 
 let a = [1, 2, 3, 4, 5];
 
-const b = a.forEach(function (num) {
-  console.log(num);
-});
+// const b = a.forEach(function (num) {
+//   console.log(num);
+// });
 
-console.log(b);
+const b = a.forEach((num) => console.log(num));
+
+// console.log(b);
 // map
 // filter
 // reduce
@@ -23,3 +25,14 @@ console.log(b);
 // fill
 
 //let b = ["cat", "dog"];
+
+// var a = 10;
+// {
+//   var a = -10;
+// }
+
+// let b = a;
+// {
+//   let b = -20;
+// }
+// console.log(b);
