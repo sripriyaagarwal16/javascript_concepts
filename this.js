@@ -1,6 +1,10 @@
-"use strict";
+//"use strict";
 
 let x = 10; // error
+
+function abc() {
+  console.log(this);
+}
 
 let user = {
   firstName: "Anshika",
@@ -31,7 +35,7 @@ const user2 = {
   lastName: "gupta",
 };
 
-let user2details = user.printFullName.call(user2, "cooking");
+let user2details = user.printFullName.apply(user2, [cooking]);
 
 console.log(user2details);
 

@@ -36,3 +36,5 @@ const b = a.forEach((num) => console.log(num));
 //   let b = -20;
 // }
 // console.log(b);
+
+// unshift , push, pop, shift
